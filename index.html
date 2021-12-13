@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/fontawesome-all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!-- Header  -->
+    <header>
+        <!-- Nav Bar  -->
+        <nav class="d-flex align-items-center">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="logo">
+                    <img src="imgs/logo.png" alt="logo" width="96" height="56" />
+                </div>
+                <div class="actions d-flex">
+                    <a href="#" class="login">
+                        <img src="imgs/login.png" alt="login" />
+                        <span>Login</span>
+                    </a>
+                    <span class="separator">|</span>
+                    <a href="#" class="langs">
+                        <img src="imgs/language.png" alt="language" />
+                        <span>عربي</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <!-- Header Content  -->
+        <div class="header-content d-flex align-items-center justify-content-center">
+            <div class="container text-center text-white">
+                <div class="holder">
+                    <h1>Guaranteed Quality Every Single Day</h1>
+                    <p class="desc">
+                        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+                    </p>
+                    <!-- Download Buttons  -->
+                    <div class="download d-flex align-items-center justify-content-center">
+                        <span class="mx-2">Download App</span>
+                        <a href="#" class="d-inline-flex downloadLink align-items-center">
+                            <img src="imgs/google.svg" alt="google" />
+                            <div class="d-flex flex-column justify-content-start get-it">
+                                <span>Get it on</span>
+                                <strong>Google Play</strong>
+                            </div>
+                        </a>
+                        <a href="#" class="d-inline-flex downloadLink align-items-center">
+                            <img src="imgs/apple.svg" alt="apple" />
+                            <div class="d-flex flex-column justify-content-start get-it">
+                                <span>Get it on</span>
+                                <strong>Apple store</strong>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Start How It Work Section  -->
+    <section class="how-it-works text-center">
+        <div class="container">
+            <img class="fire" src="imgs/fire.svg" alt="fire" />
+            <h6 class="vibs">Wall Pepper</h6>
+            <h2 class="head">How It Works</h2>
+            <div class="row position-relative">
+                <div class="col-md-4 steps">
+                    <div class="desc-img position-relative">
+                        <img src="imgs/chose_location.svg" alt="chose_location" />
+                    </div>
+                    <h5>Choose Location</h5>
+                </div>
+                <div class="col-md-4 steps">
+                    <div class="desc-img position-relative">
+                        <img src="imgs/chose_food.svg" alt="chose_food" />
+                    </div>
+                    <h5>Choose Food</h5>
+                </div>
+                <div class="col-md-4 steps">
+                    <div class="desc-img position-relative">
+                        <img src="imgs/delivery.svg" alt="delivery" />
+                    </div>
+                    <h5>Delivery</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start Categories  -->
+    <section class="categories">
+        <div class="container">
+            <div class="row">
+                <!-- Left part  -->
+                <div class="col-md-6 left-part">
+                    <a href="#">
+                        <img class="w-100" src="imgs/left.png" alt="pizza" />
+                    </a>
+                </div>
+                <!-- right Part  -->
+                <div class="col-md-6">
+                    <div class="row right-part">
+                        <div class="col-md-12 top">
+                            <a href="#">
+                                <img class="w-100" src="imgs/right_top.png" alt="category2" />
+                            </a>
+                        </div>
+                        <div class="col-md-12 bottom">
+                            <a href="#">
+                                <img class="w-100" src="imgs/right_top.png" alt="category3" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ::/End Categories  -->
+
+    <!-- Start Favourit Food -->
+    <section class="fav-food text-center">
+        <div class="container">
+            <img class="fire" src="imgs/fire.svg" alt="fire" />
+            <h6 class="vibs">Wall Pepper</h6>
+            <h2 class="head">Your Favourite Food</h2>
+            <!-- Food Tabs  -->
+
+            <div class="food-tabs">
+                <nav>
+                    <div class="nav nav-tabs nav-fill" id="nav-tab" role="tablist">
+                        <a class="nav-item nav-link d-flex active" id="nav-break-tab" data-toggle="tab" href="#nav-break" role="tab" aria-controls="nav-break" aria-selected="false">
+                            <div class="icon-holder">
+                                <img src="imgs/break.png" alt="break">
+                            </div>
+                            <span>Break Fast</span>
+                        </a>
+                        <a class="nav-item nav-link d-flex" id="nav-burger-tab" data-toggle="tab" href="#nav-burger" role="tab" aria-controls="nav-burger" aria-selected="false">
+                            <div class="icon-holder">
+                                <img src="imgs/burger.png" alt="burger">
+                            </div>
+                            <span>Burger</span>
+                        </a>
+                        <a class="nav-item nav-link d-flex" id="nav-pizza-tab" data-toggle="tab" href="#nav-pizza" role="tab" aria-controls="nav-pizza" aria-selected="false">
+                            <div class="icon-holder">
+                                <img src="imgs/pizza.png" alt="pizza">
+                            </div>
+                            <span>Pizza</span>
+                        </a>
+                        <a class="nav-item nav-link d-flex" id="nav-chicken-tab" data-toggle="tab" href="#nav-chicken" role="tab" aria-controls="nav-chicken" aria-selected="false">
+                            <div class="icon-holder">
+                                <img src="imgs/checken.png" alt="checken">
+                            </div>
+                            <span>Chicken</span>
+                        </a>
+                        <a class="nav-item nav-link d-flex" id="nav-chineese-tab" data-toggle="tab" href="#nav-chineese" role="tab" aria-controls="nav-chineese" aria-selected="false">
+                            <div class="icon-holder">
+                                <img src="imgs/chinese.png" alt="chineese">
+                            </div>
+                            <span>Chineese</span>
+                        </a>
+                        <a class="nav-item nav-link d-flex" id="nav-desert-tab" data-toggle="tab" href="#nav-desert" role="tab" aria-controls="nav-desert" aria-selected="false">
+                            <div class="icon-holder">
+                                <img src="imgs/desert.png" alt="desert">
+                            </div>
+                            <span>Desert</span>
+                        </a>
+                    </div>
+                </nav>
+                <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                    <!-- first tab (breakFast tab ) -->
+                    <div class="tab-pane fade show active" id="nav-break" role="tabpanel" aria-labelledby="nav-break-tab">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <!-- Item Card  -->
+                                <div class="card">
+                                    <img class="card-img-top" src="imgs/1.png" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Delicious Sandwiche</h5>
+                                        <span>Cibadak Market</span>
+                                        <div class="
+                                          item-info
+                                          d-flex
+                                          justify-content-between
+                                          mt-3
+                                          align-items-center
+                                        ">
+                                            <div class="item-price">20 SAR</div>
+                                            <div class="add-to-card d-flex align-items-center justify-content-center">
+                                                <img src="imgs/shopping.svg" alt="shopping">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <!-- Item Card  -->
+                                <div class="card">
+                                    <img class="card-img-top" src="imgs/2.png" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Delicious Sandwiche</h5>
+                                        <span>Cibadak Market</span>
+                                        <div class="
+                                          item-info
+                                          d-flex
+                                          justify-content-between
+                                          mt-3
+                                          align-items-center
+                                        ">
+                                            <div class="item-price">20 SAR</div>
+                                            <div class="add-to-card d-flex align-items-center justify-content-center">
+                                                <img src="imgs/shopping.svg" alt="shopping">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <!-- Item Card  -->
+                                <div class="card">
+                                    <img class="card-img-top" src="imgs/3.png" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Delicious Sandwiche</h5>
+                                        <span>Cibadak Market</span>
+                                        <div class="
+                                          item-info
+                                          d-flex
+                                          justify-content-between
+                                          mt-3
+                                          align-items-center
+                                        ">
+                                            <div class="item-price">20 SAR</div>
+                                            <div class="add-to-card d-flex align-items-center justify-content-center">
+                                                <img src="imgs/shopping.svg" alt="shopping">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <!-- Item Card  -->
+                                <div class="card">
+                                    <img class="card-img-top" src="imgs/4.png" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Delicious Sandwiche</h5>
+                                        <span>Cibadak Market</span>
+                                        <div class="
+                                          item-info
+                                          d-flex
+                                          justify-content-between
+                                          mt-3
+                                          align-items-center
+                                        ">
+                                            <div class="item-price">20 SAR</div>
+                                            <div class="add-to-card d-flex align-items-center justify-content-center">
+                                                <img src="imgs/shopping.svg" alt="shopping">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- second tab (burger ) -->
+                    <div class="tab-pane fade" id="nav-burger" role="tabpanel" aria-labelledby="nav-burger-tab">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <!-- Item Card  -->
+                                <div class="card">
+                                    <img class="card-img-top" src="imgs/1.png" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Delicious Sandwiche</h5>
+                                        <span>Cibadak Market</span>
+                                        <div class="
+                                          item-info
+                                          d-flex
+                                          justify-content-between
+                                          mt-3
+                                          align-items-center
+                                        ">
+                                            <div class="item-price">20 SAR</div>
+                                            <div class="add-to-card d-flex align-items-center justify-content-center">
+                                                <img src="imgs/shopping.svg" alt="shopping">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <!-- Item Card  -->
+                                <div class="card">
+                                    <img class="card-img-top" src="imgs/2.png" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Delicious Sandwiche</h5>
+                                        <span>Cibadak Market</span>
+                                        <div class="
+                                          item-info
+                                          d-flex
+                                          justify-content-between
+                                          mt-3
+                                          align-items-center
+                                        ">
+                                            <div class="item-price">20 SAR</div>
+                                            <div class="add-to-card d-flex align-items-center justify-content-center">
+                                                <img src="imgs/shopping.svg" alt="shopping">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <!-- Item Card  -->
+                                <div class="card">
+                                    <img class="card-img-top" src="imgs/3.png" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Delicious Sandwiche</h5>
+                                        <span>Cibadak Market</span>
+                                        <div class="
+                                          item-info
+                                          d-flex
+                                          justify-content-between
+                                          mt-3
+                                          align-items-center
+                                        ">
+                                            <div class="item-price">20 SAR</div>
+                                            <div class="add-to-card d-flex align-items-center justify-content-center">
+                                                <img src="imgs/shopping.svg" alt="shopping">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <!-- Item Card  -->
+                                <div class="card">
+                                    <img class="card-img-top" src="imgs/4.png" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Delicious Sandwiche</h5>
+                                        <span>Cibadak Market</span>
+                                        <div class="
+                                          item-info
+                                          d-flex
+                                          justify-content-between
+                                          mt-3
+                                          align-items-center
+                                        ">
+                                            <div class="item-price">20 SAR</div>
+                                            <div class="add-to-card d-flex align-items-center justify-content-center">
+                                                <img src="imgs/shopping.svg" alt="shopping">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- third tab ( pizza ) -->
+                    <div class="tab-pane fade ord" id="nav-pizza" role="tabpanel" aria-labelledby="nav-pizza-tab">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <!-- Item Card  -->
+                                <div class="card">
+                                    <img class="card-img-top" src="imgs/1.png" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Delicious Sandwiche</h5>
+                                        <span>Cibadak Market</span>
+                                        <div class="
+                                          item-info
+                                          d-flex
+                                          justify-content-between
+                                          mt-3
+                                          align-items-center
+                                        ">
+                                            <div class="item-price">20 SAR</div>
+                                            <div class="add-to-card d-flex align-items-center justify-content-center">
+                                                <img src="imgs/shopping.svg" alt="shopping">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <!-- Item Card  -->
+                                <div class="card">
+                                    <img class="card-img-top" src="imgs/2.png" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Delicious Sandwiche</h5>
+                                        <span>Cibadak Market</span>
+                                        <div class="
+                                          item-info
+                                          d-flex
+                                          justify-content-between
+                                          mt-3
+                                          align-items-center
+                                        ">
+                                            <div class="item-price">20 SAR</div>
+                                            <div class="add-to-card d-flex align-items-center justify-content-center">
+                                                <img src="imgs/shopping.svg" alt="shopping">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <!-- Item Card  -->
+                                <div class="card">
+                                    <img class="card-img-top" src="imgs/3.png" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Delicious Sandwiche</h5>
+                                        <span>Cibadak Market</span>
+                                        <div class="
+                                          item-info
+                                          d-flex
+                                          justify-content-between
+                                          mt-3
+                                          align-items-center
+                                        ">
+                                            <div class="item-price">20 SAR</div>
+                                            <div class="add-to-card d-flex align-items-center justify-content-center">
+                                                <img src="imgs/shopping.svg" alt="shopping">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <!-- Item Card  -->
+                                <div class="card">
+                                    <img class="card-img-top" src="imgs/4.png" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Delicious Sandwiche</h5>
+                                        <span>Cibadak Market</span>
+                                        <div class="
+                                          item-info
+                                          d-flex
+                                          justify-content-between
+                                          mt-3
+                                          align-items-center
+                                        ">
+                                            <div class="item-price">20 SAR</div>
+                                            <div class="add-to-card d-flex align-items-center justify-content-center">
+                                                <img src="imgs/shopping.svg" alt="shopping">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fourth tab ( chicken ) -->
+                    <div class="tab-pane fade ord" id="nav-chicken" role="tabpanel" aria-labelledby="nav-chicken-tab">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <!-- Item Card  -->
+                                <div class="card">
+                                    <img class="card-img-top" src="imgs/1.png" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Delicious Sandwiche</h5>
+                                        <span>Cibadak Market</span>
+                                        <div class="
+                                          item-info
+                                          d-flex
+                                          justify-content-between
+                                          mt-3
+                                          align-items-center
+                                        ">
+                                            <div class="item-price">20 SAR</div>
+                                            <div class="add-to-card d-flex align-items-center justify-content-center">
+                                                <img src="imgs/shopping.svg" alt="shopping">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <!-- Item Card  -->
+                                <div class="card">
+                                    <img class="card-img-top" src="imgs/2.png" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Delicious Sandwiche</h5>
+                                        <span>Cibadak Market</span>
+                                        <div class="
+                                          item-info
+                                          d-flex
+                                          justify-content-between
+                                          mt-3
+                                          align-items-center
+                                        ">
+                                            <div class="item-price">20 SAR</div>
+                                            <div class="add-to-card d-flex align-items-center justify-content-center">
+                                                <img src="imgs/shopping.svg" alt="shopping">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <!-- Item Card  -->
+                                <div class="card">
+                                    <img class="card-img-top" src="imgs/3.png" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Delicious Sandwiche</h5>
+                                        <span>Cibadak Market</span>
+                                        <div class="
+                                          item-info
+                                          d-flex
+                                          justify-content-between
+                                          mt-3
+                                          align-items-center
+                                        ">
+                                            <div class="item-price">20 SAR</div>
+                                            <div class="add-to-card d-flex align-items-center justify-content-center">
+                                                <img src="imgs/shopping.svg" alt="shopping">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <!-- Item Card  -->
+                                <div class="card">
+                                    <img class="card-img-top" src="imgs/4.png" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Delicious Sandwiche</h5>
+                                        <span>Cibadak Market</span>
+                                        <div class="
+                                          item-info
+                                          d-flex
+                                          justify-content-between
+                                          mt-3
+                                          align-items-center
+                                        ">
+                                            <div class="item-price">20 SAR</div>
+                                            <div class="add-to-card d-flex align-items-center justify-content-center">
+                                                <img src="imgs/shopping.svg" alt="shopping">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- fifth tab ( chineese ) -->
+                    <div class="tab-pane fade ord" id="nav-chineese" role="tabpanel" aria-labelledby="nav-chineese-tab">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <!-- Item Card  -->
+                                <div class="card">
+                                    <img class="card-img-top" src="imgs/1.png" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Delicious Sandwiche</h5>
+                                        <span>Cibadak Market</span>
+                                        <div class="
+                                          item-info
+                                          d-flex
+                                          justify-content-between
+                                          mt-3
+                                          align-items-center
+                                        ">
+                                            <div class="item-price">20 SAR</div>
+                                            <div class="add-to-card d-flex align-items-center justify-content-center">
+                                                <img src="imgs/shopping.svg" alt="shopping">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <!-- Item Card  -->
+                                <div class="card">
+                                    <img class="card-img-top" src="imgs/2.png" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Delicious Sandwiche</h5>
+                                        <span>Cibadak Market</span>
+                                        <div class="
+                                          item-info
+                                          d-flex
+                                          justify-content-between
+                                          mt-3
+                                          align-items-center
+                                        ">
+                                            <div class="item-price">20 SAR</div>
+                                            <div class="add-to-card d-flex align-items-center justify-content-center">
+                                                <img src="imgs/shopping.svg" alt="shopping">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <!-- Item Card  -->
+                                <div class="card">
+                                    <img class="card-img-top" src="imgs/3.png" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Delicious Sandwiche</h5>
+                                        <span>Cibadak Market</span>
+                                        <div class="
+                                          item-info
+                                          d-flex
+                                          justify-content-between
+                                          mt-3
+                                          align-items-center
+                                        ">
+                                            <div class="item-price">20 SAR</div>
+                                            <div class="add-to-card d-flex align-items-center justify-content-center">
+                                                <img src="imgs/shopping.svg" alt="shopping">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <!-- Item Card  -->
+                                <div class="card">
+                                    <img class="card-img-top" src="imgs/4.png" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Delicious Sandwiche</h5>
+                                        <span>Cibadak Market</span>
+                                        <div class="
+                                          item-info
+                                          d-flex
+                                          justify-content-between
+                                          mt-3
+                                          align-items-center
+                                        ">
+                                            <div class="item-price">20 SAR</div>
+                                            <div class="add-to-card d-flex align-items-center justify-content-center">
+                                                <img src="imgs/shopping.svg" alt="shopping">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- sixth tab ( desert ) -->
+                    <div class="tab-pane fade ord" id="nav-desert" role="tabpanel" aria-labelledby="nav-desert-tab">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <!-- Item Card  -->
+                                <div class="card">
+                                    <img class="card-img-top" src="imgs/1.png" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Delicious Sandwiche</h5>
+                                        <span>Cibadak Market</span>
+                                        <div class="
+                                          item-info
+                                          d-flex
+                                          justify-content-between
+                                          mt-3
+                                          align-items-center
+                                        ">
+                                            <div class="item-price">20 SAR</div>
+                                            <div class="add-to-card d-flex align-items-center justify-content-center">
+                                                <img src="imgs/shopping.svg" alt="shopping">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <!-- Item Card  -->
+                                <div class="card">
+                                    <img class="card-img-top" src="imgs/2.png" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Delicious Sandwiche</h5>
+                                        <span>Cibadak Market</span>
+                                        <div class="
+                                          item-info
+                                          d-flex
+                                          justify-content-between
+                                          mt-3
+                                          align-items-center
+                                        ">
+                                            <div class="item-price">20 SAR</div>
+                                            <div class="add-to-card d-flex align-items-center justify-content-center">
+                                                <img src="imgs/shopping.svg" alt="shopping">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <!-- Item Card  -->
+                                <div class="card">
+                                    <img class="card-img-top" src="imgs/3.png" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Delicious Sandwiche</h5>
+                                        <span>Cibadak Market</span>
+                                        <div class="
+                                          item-info
+                                          d-flex
+                                          justify-content-between
+                                          mt-3
+                                          align-items-center
+                                        ">
+                                            <div class="item-price">20 SAR</div>
+                                            <div class="add-to-card d-flex align-items-center justify-content-center">
+                                                <img src="imgs/shopping.svg" alt="shopping">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <!-- Item Card  -->
+                                <div class="card">
+                                    <img class="card-img-top" src="imgs/4.png" alt="Card image cap" />
+                                    <div class="card-body">
+                                        <h5 class="card-title">Delicious Sandwiche</h5>
+                                        <span>Cibadak Market</span>
+                                        <div class="
+                                          item-info
+                                          d-flex
+                                          justify-content-between
+                                          mt-3
+                                          align-items-center
+                                        ">
+                                            <div class="item-price">20 SAR</div>
+                                            <div class="add-to-card d-flex align-items-center justify-content-center">
+                                                <img src="imgs/shopping.svg" alt="shopping">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="downloadApp">
+        <div class="container position-relative">
+            <div class="row main-row position-relative">
+                <div class="col-md-6 d-flex down-section">
+                    <div class="download-content">
+                        <h3>Download Application</h3>
+                        <p>you can download the application now and enjoy our meals and offers</p>
+                        <!-- Download Buttons  -->
+                        <div class="download d-flex align-items-center justify-content-start">
+                            <a href="#" class="d-inline-flex downloadLink align-items-center">
+                                <img src="imgs/google.svg" alt="google" />
+                                <div class="d-flex flex-column justify-content-start get-it">
+                                    <span>Get it on</span>
+                                    <strong>Google Play</strong>
+                                </div>
+                            </a>
+                            <a href="#" class="d-inline-flex downloadLink align-items-center">
+                                <img src="imgs/apple.svg" alt="apple" />
+                                <div class="d-flex flex-column justify-content-start get-it">
+                                    <span>Get it on</span>
+                                    <strong>Apple store</strong>
+                                </div>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6 position-absolute right-download">
+                    <img src="imgs/phone.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 footer-logo">
+                    <img src="imgs/footer-logo.png" alt="">
+                    <p>We Made It Fresh By Our Hands</p>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-12 hot-menu">
+                    <h4>
+                        <img src="imgs/fire.svg" alt="fire"> Hot Menu
+                    </h4>
+                    <ul class="list-unstyled p-0">
+                        <li><a href="#">Break Fast</a></li>
+                        <li><a href="#">Burger</a></li>
+                        <li><a href="#">Pizza</a></li>
+                        <li><a href="#">Chicken</a></li>
+                        <li><a href="#">Chineese</a></li>
+                        <li><a href="#">Deseert</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 our-times col-sm-12 text-center">
+                    <h4>
+                        <img src="imgs/clockk.svg" alt="fire"> Our Times
+                    </h4>
+                    <p>Sat - Thu : 5PM - 12.30AM </p>
+                    <p>Fridays : 5PM - 1.30AM </p>
+                </div>
+                <div class="col-lg-3 subscribe">
+                    <h4>Subscribe to know our offers</h4>
+                    <form action="">
+                        <input type="email" placeholder="enter your mail">
+                        <img class="envelope" src="imgs/mail-inbox-app.svg" alt="">
+                        <button>
+                            <img src="imgs/paper-planee.svg" alt="">
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
