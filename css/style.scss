@@ -108,15 +108,17 @@ header {
         }
 
         .contact_info {
-            @media(max-width:991px){
+            @media(max-width:991px) {
                 flex-wrap: wrap;
                 padding: 12px;
             }
+
             span {
                 color: #686D77;
                 direction: ltr;
                 margin-inline-start: 24px;
-                @media(max-width:991px){
+
+                @media(max-width:991px) {
                     display: block;
                     width: 100%;
                     margin-bottom: 12px;
@@ -128,7 +130,8 @@ header {
                 color: #fff;
                 padding: 12px 28px;
                 text-align: center;
-                @media(max-width:991px){
+
+                @media(max-width:991px) {
                     padding: 8px 24px;
                 }
             }
@@ -140,6 +143,15 @@ header {
         width: 50%;
         display: flex;
         align-items: center;
+        position: relative;
+
+        @media(max-width:767px) {
+            width: 60%;
+        }
+
+        @media(max-width:424px) {
+            width: 100%;
+        }
 
         .carousel-item {
             text-align: right;
@@ -147,11 +159,19 @@ header {
             font-size: 18px;
             line-height: 28px;
             font-family: $brandoSemiBold;
+
+            @media(max-width:767px) {
+                font-size: 15px;
+            }
+
+            @media(max-width:424px) {
+                font-size: 14px;
+            }
         }
 
         .carousel-indicators {
             left: auto;
-            right: -90px;
+            right: -10%;
             display: flex;
             flex-direction: column;
             top: 50%;
@@ -163,6 +183,10 @@ header {
             flex-shrink: 0;
             align-items: center;
             transform: translateY(-50%);
+
+            @media(max-width:575px) {
+                display: none;
+            }
 
             li {
                 width: 5px;
@@ -190,6 +214,15 @@ header {
         position: absolute;
         width: 40%;
         left: 8%;
+
+        @media(max-width:767px) {
+            width: 30%;
+        }
+
+        @media(max-width:425px) {
+            display: none;
+        }
+
     }
 }
 
@@ -209,6 +242,10 @@ header {
         padding: 8px 24px;
         font-family: $brandoSemiBold;
         display: inline-flex;
+
+        @media(max-width:991px) {
+            margin-top: 16px;
+        }
     }
 }
 
@@ -241,6 +278,10 @@ header {
         top: 185px;
         left: 0px;
 
+        @media(max-width:767px) {
+            display: none;
+        }
+
     }
 
 
@@ -253,9 +294,19 @@ header {
     background-repeat: no-repeat;
     background-position: right center;
 
+    @media(max-width:767px) {
+        background-image: none;
+        height: auto;
+    }
+
     .caption {
         width: 40%;
         margin-right: auto;
+
+        @media(max-width:767px) {
+            width: 100%;
+            margin-top: 36px;
+        }
 
     }
 
@@ -268,14 +319,34 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
 
+    @media(max-width:767px) {
+        min-height: auto;
+        background-image: none;
+        background-color: $secColor;
+        padding: 50px 0 ;
+    }
+
     .container {
         min-height: 600px;
+
+        @media(max-width:767px) {
+            min-height: auto;
+        }
 
         .mission_content {
             min-height: 600px;
 
+            @media(max-width:767px) {
+                min-height: auto;
+            }
+
             div {
                 width: 40%;
+                
+            @media(max-width:767px) {
+                width: 100%;
+            }
+                
 
                 h2 {
                     font-family: $brandoBlack;
@@ -317,6 +388,7 @@ header {
 }
 
 .contact {
+    padding: 32px 0 ;
     form {
         label {
             display: block;

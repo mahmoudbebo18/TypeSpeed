@@ -89,16 +89,29 @@ header {
     height: calc(100% - 90px);
     width: 50%;
     display: flex;
-    align-items: center; }
+    align-items: center;
+    position: relative; }
+    @media (max-width: 767px) {
+      header #carouselExampleIndicators {
+        width: 60%; } }
+    @media (max-width: 424px) {
+      header #carouselExampleIndicators {
+        width: 100%; } }
     header #carouselExampleIndicators .carousel-item {
       text-align: right;
       color: #4C769D;
       font-size: 18px;
       line-height: 28px;
       font-family: "Brando-Arabic-SemiBold"; }
+      @media (max-width: 767px) {
+        header #carouselExampleIndicators .carousel-item {
+          font-size: 15px; } }
+      @media (max-width: 424px) {
+        header #carouselExampleIndicators .carousel-item {
+          font-size: 14px; } }
     header #carouselExampleIndicators .carousel-indicators {
       left: auto;
-      right: -90px;
+      right: -10%;
       display: flex;
       flex-direction: column;
       top: 50%;
@@ -110,6 +123,9 @@ header {
       flex-shrink: 0;
       align-items: center;
       transform: translateY(-50%); }
+      @media (max-width: 575px) {
+        header #carouselExampleIndicators .carousel-indicators {
+          display: none; } }
       header #carouselExampleIndicators .carousel-indicators li {
         width: 5px;
         height: 5px;
@@ -129,6 +145,12 @@ header {
     position: absolute;
     width: 40%;
     left: 8%; }
+    @media (max-width: 767px) {
+      header .car_img {
+        width: 30%; } }
+    @media (max-width: 425px) {
+      header .car_img {
+        display: none; } }
 
 .label {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.16);
@@ -143,6 +165,9 @@ header {
     padding: 8px 24px;
     font-family: "Brando-Arabic-SemiBold";
     display: inline-flex; }
+    @media (max-width: 991px) {
+      .label .sign {
+        margin-top: 16px; } }
 
 .rigt_way {
   padding: 32px 0;
@@ -165,6 +190,9 @@ header {
     width: 30%;
     top: 185px;
     left: 0px; }
+    @media (max-width: 767px) {
+      .rigt_way .shape {
+        display: none; } }
 
 .right_way_2 {
   background-image: url(../imgs/right_way_bg.png);
@@ -172,9 +200,17 @@ header {
   height: 600px;
   background-repeat: no-repeat;
   background-position: right center; }
+  @media (max-width: 767px) {
+    .right_way_2 {
+      background-image: none;
+      height: auto; } }
   .right_way_2 .caption {
     width: 40%;
     margin-right: auto; }
+    @media (max-width: 767px) {
+      .right_way_2 .caption {
+        width: 100%;
+        margin-top: 36px; } }
 
 .mission {
   background-image: url(../imgs/mission.png);
@@ -182,12 +218,27 @@ header {
   background-position: left;
   background-size: contain;
   background-repeat: no-repeat; }
+  @media (max-width: 767px) {
+    .mission {
+      min-height: auto;
+      background-image: none;
+      background-color: #4C769D;
+      padding: 50px 0; } }
   .mission .container {
     min-height: 600px; }
+    @media (max-width: 767px) {
+      .mission .container {
+        min-height: auto; } }
     .mission .container .mission_content {
       min-height: 600px; }
+      @media (max-width: 767px) {
+        .mission .container .mission_content {
+          min-height: auto; } }
       .mission .container .mission_content div {
         width: 40%; }
+        @media (max-width: 767px) {
+          .mission .container .mission_content div {
+            width: 100%; } }
         .mission .container .mission_content div h2 {
           font-family: "Brando-Arabic-Black";
           font-size: 36px;
@@ -209,28 +260,30 @@ header {
   .goals .content .divider {
     width: 70px; }
 
-.contact form label {
-  display: block;
-  background-color: #CD4282;
-  width: 45%;
-  margin: auto;
-  padding: 16px 24px 16px;
-  border-radius: 32px;
-  color: #fff;
-  text-align: right;
-  padding-right: 24px; }
-.contact form input {
-  display: block;
-  width: 45%;
-  margin: auto;
-  border-radius: 32px;
-  border: none;
-  margin-top: 0px;
-  background-color: transparent;
-  box-shadow: 0 0 5px #ccc;
-  outline: none;
-  color: #CD4282;
-  padding: 16px 24px; }
+.contact {
+  padding: 32px 0; }
+  .contact form label {
+    display: block;
+    background-color: #CD4282;
+    width: 45%;
+    margin: auto;
+    padding: 16px 24px 16px;
+    border-radius: 32px;
+    color: #fff;
+    text-align: right;
+    padding-right: 24px; }
+  .contact form input {
+    display: block;
+    width: 45%;
+    margin: auto;
+    border-radius: 32px;
+    border: none;
+    margin-top: 0px;
+    background-color: transparent;
+    box-shadow: 0 0 5px #ccc;
+    outline: none;
+    color: #CD4282;
+    padding: 16px 24px; }
 
 /*user*/
 .user.heading {
