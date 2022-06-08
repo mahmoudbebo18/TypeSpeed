@@ -11,194 +11,39 @@
     <link rel="stylesheet" href="css/style.css" />
 </head>
 
-<body dir="rtl">
+<body dir="ltr">
 
-    <header>
-        <div class="container">
-            <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="#">
-                    <img src="imgs/logo.png" width="120" alt="logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                   <i class="fas fa-bars"></i>
-                </button>
+    <div class="container">
 
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto ml-auto p-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">الصفحة الرئيسية <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">خدماتنا</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">عننا</a>
-                        </li>
-                    </ul>
-                    <div class="contact_info d-flex align-items-center">
-                        <span> +00 000 000 000 </span>
-                        <a href="#"> للتواصل </a>
-                    </div>
-                </div>
-            </nav>
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        تنويل هي منشأة سعودية طامحة تعمل بروح وشغف وطموحات الشباب
-                        وتعتمد على التقنيات الحديثة لتقدم لعملائها مجموعة من الحلول النوعية
-                        المتطورة في قطاع الدعم اللوجيستي والنقليات وتوصيل الطلبات والطرود
-                        وتسعى تنويل من خلال جهدها في هذا القطاع لتسريع حركة التجارة الالكترونية
-                        وتطوير الأسواق وتحفيزها نحو الأفضل وإثراء الأسر والمحال والمطاعم
-                        التي تحتاج لخدمات التوصيل والشحن السريع وتسهيل قدرتها على المنافسة
-                        والنمو وتتبنى تنويل منهجيات وقيم وسياسات تمكنها من تقديم خدمات
-                        عالية الكفاءة بطريقة سهلة وسريعة وبالسعر العادل
+        <div class="begin">
+            <input type="range"  value="5" step="2" min="5" max="11">
+            <button class="start_game" onclick="startGame()"> Begin </button>
+        </div>
 
-                    </div>
-                    <div class="carousel-item">
-                        تنويل هي منشأة سعودية طامحة تعمل بروح وشغف وطموحات الشباب
-                        وتعتمد على التقنيات الحديثة لتقدم لعملائها مجموعة من الحلول النوعية
-                        المتطورة في قطاع الدعم اللوجيستي والنقليات وتوصيل الطلبات والطرود
-                        وتسعى تنويل من خلال جهدها في هذا القطاع لتسريع حركة التجارة الالكترونية
-                        وتطوير الأسواق وتحفيزها نحو الأفضل وإثراء الأسر والمحال والمطاعم
-                        التي تحتاج لخدمات التوصيل والشحن السريع وتسهيل قدرتها على المنافسة
-                        والنمو وتتبنى تنويل منهجيات وقيم وسياسات تمكنها من تقديم خدمات
-                        عالية الكفاءة بطريقة سهلة وسريعة وبالسعر العادل
-
-                    </div>
-                    <div class="carousel-item">
-                        تنويل هي منشأة سعودية طامحة تعمل بروح وشغف وطموحات الشباب
-                        وتعتمد على التقنيات الحديثة لتقدم لعملائها مجموعة من الحلول النوعية
-                        المتطورة في قطاع الدعم اللوجيستي والنقليات وتوصيل الطلبات والطرود
-                        وتسعى تنويل من خلال جهدها في هذا القطاع لتسريع حركة التجارة الالكترونية
-                        وتطوير الأسواق وتحفيزها نحو الأفضل وإثراء الأسر والمحال والمطاعم
-                        التي تحتاج لخدمات التوصيل والشحن السريع وتسهيل قدرتها على المنافسة
-                        والنمو وتتبنى تنويل منهجيات وقيم وسياسات تمكنها من تقديم خدمات
-                        عالية الكفاءة بطريقة سهلة وسريعة وبالسعر العادل
-
-                    </div>
-                    <div class="carousel-item">
-                        تنويل هي منشأة سعودية طامحة تعمل بروح وشغف وطموحات الشباب
-                        وتعتمد على التقنيات الحديثة لتقدم لعملائها مجموعة من الحلول النوعية
-                        المتطورة في قطاع الدعم اللوجيستي والنقليات وتوصيل الطلبات والطرود
-                        وتسعى تنويل من خلال جهدها في هذا القطاع لتسريع حركة التجارة الالكترونية
-                        وتطوير الأسواق وتحفيزها نحو الأفضل وإثراء الأسر والمحال والمطاعم
-                        التي تحتاج لخدمات التوصيل والشحن السريع وتسهيل قدرتها على المنافسة
-                        والنمو وتتبنى تنويل منهجيات وقيم وسياسات تمكنها من تقديم خدمات
-                        عالية الكفاءة بطريقة سهلة وسريعة وبالسعر العادل
-
-                    </div>
+        <div class="game_body">
+            <div class="heading">
+                Simple Speed Typing
+            </div>
+            <div class="header">
+                <div class="timer">
+                    <div class="header_text">Time</div>
+                    <div class="curr_time">20s</div>
                 </div>
             </div>
-            <img src="imgs/car.png" class="car_img" alt="car">
-        </div>
-    </header>
+    
+            <div class="quote">
+            </div>
+            <div class="secs">
 
-    <section class="label text-right">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6">
-                    <p class="label_caption">
-                        تنويل هي منشأة سعودية طامحة تعمل بروح وشغف وطموحات الشباب
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <a href="#" class="sign">
-                        للتسجيل
-                    </a>
-                </div>
             </div>
+            <textarea class="input_area" placeholder="start typing here..." oninput="processCurrentText()"
+                onfocus="startGame()">
+            </textarea>
+            <button class="restart_btn">
+                Restart
+            </button>
         </div>
-    </section>
-
-    <section class="rigt_way">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <img class="w-100" src="imgs/right_way_1.png" alt="right way">
-                    <img class="shape" src="imgs/shape.png" alt="shape">
-                </div>
-                <div class="col-lg-6">
-                    <h2>الطريــق الصحيـــــــــــــح</h2>
-                    <p>
-                        نؤمن بدورنا في تقديـم الخدمـــات المتنوعة
-                        وفائقـة الجودة والتي تلبـــــــــي احتياجات عملائنـــــا
-                        وتمكننا من بناء علاقـة طويلة المدى معهم
-                        وتساعدنا على تحقيق التميز الدائم والريادة
-                    </p>
-                    <div class="divider"></div>
-                </div>
-            </div>
-        </div>
-        <div class="right_way_2">
-            <div class="container">
-                <div class="caption">
-                    <p>
-                        نسعى لتطوير شبكة عصريـة من الحلول
-                        اللوجستية المتطورة والسريعة والبسيطة
-                        والتـي تتواكب مع أهداف رؤية المملكة لتساعـد
-                        المنشآت السعوديـة على النمو والازدهـــــــار الدائـم
-                    </p>
-                    <div class="divider"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="mission">
-        <div class="container h-100 ">
-            <div class="mission_content d-flex align-items-center text-right ">
-                <div>
-                    <h2>مهمتنـــــــا</h2>
-                    <p>
-                        مهمتنـــــــا تطـويـر مفاهيـــــم الخدمات اللوجستيـة
-                        لتكون أكثر كفاءة وسرعـة وبما يعزز من قدرات
-                        الشركات والمشروعات الصغيرة والمتوسطة وبما
-                        يمنحها قدرة كبيرة على المنافسـة والنمو
-                    </p>
-                    <div class="divider"></div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="goals text-right">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 d-flex align-items-center">
-                    <div class="content">
-                        <h2 class="heading">أهدافنـــــــا </h2>
-                        <p class="desc">
-                            أهدافنـا هي تسريـــع حركة التجــــــــــارة ونسعى
-                            أن نكون الشريــــــك اللوجيــــــــــتي الموثوق للتجار
-                            المحلييـــن لنسهل عليهم عملية توصيل البضائع
-                            وبما يسرع من مستوى الحـــركة وحجم العمليــــــات
-                            التجاريـة نعمـل على فتـح آفاق العمـل لقطاع كبيــر
-                            من الأسر المنتجة والمحال والمطاعم بتسهيل عمليـة
-                        </p>
-                        <div class="divider"></div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <img src="imgs/goals.png" class="w-100" alt="goals">
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="contact">
-        <div class="container text-center">
-            <h2 class="heading"> للتــــــواصــل </h2>
-            <form action="">
-                <label for="email"> الايميل </label>
-                <input type="email" name="email" id="email">
-            </form>
-        </div>
-    </section>
+    </div>
 
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/popper.min.js"></script>
