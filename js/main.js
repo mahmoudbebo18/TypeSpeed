@@ -8,12 +8,7 @@ let quotes_array = [
     "type",
     "speed",
     "app",
-    "you",
-    "can",
-    "test",
-    "your",
-    "speed",
-    "easily"
+    "app"
 ];
 // selecting required elements
 let timer_text = document.querySelector(".curr_time");
